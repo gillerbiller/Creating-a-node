@@ -1,0 +1,17 @@
+class Node:
+    nextNode = None
+    contents = None
+
+    def __init__(self, contentInput, nextNodeInput = None):
+        print("Making a new node with value " + str(ContentInput))
+        self.nextNode = nextNodeInput
+        self.contents = contentInput
+
+    def getNextNode(self):
+        return self.nextNode
+
+    def getContents(self):
+        return self.contentInput
+
+    def addNextNode(self):
+        return self.nextNode = nextNodeInput
